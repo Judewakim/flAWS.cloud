@@ -35,7 +35,7 @@ In this level you need to get access to the webpage but it asks for credentials 
 
 -Once you're ssh'ed into the instance look at the block devices using <code>lsblk</code> and notice the name of the volume you attached (a volume uses Elastic Block Storage that why you can see it looking at the block devices) and enter this command: <code>sudo file -s /dev/[YOUR VOLUME NAME]</code> which uses the "file" utility to determine the type of data in the specified device. Then mount it using <code>sudo mount /dev/[YOUR_VOLUME_NAME] /mnt</code> then you can dig around the snapshot for the answer to this level.<br>
 
-## Links: 
+## Links 
 
 Tyler Ramsbey | Hack Smarter: <br> 
 https://youtu.be/PFhfmbo8r-w?si=Ukti-T1sHjgvoWPT 
