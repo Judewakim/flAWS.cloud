@@ -39,3 +39,11 @@ This EC2 has a simple HTTP only proxy on it. See if you can use this proxy to fi
 <br>
 In this level you are told the EC2 only uses HTTP proxy and are given an example link. Your task is to find the contents of the level 6 S3 bucket using the HTTP proxy on the EC2 instance.
 <br>
+
+## [Level 6](https://github.com/Judewakim/flAWS.cloud/blob/main/level6.md)
+
+For this final challenge, you're getting a user access key that has the SecurityAudit policy attached to it. See what else it can do and what else you might find in this AWS account.
+<br>
+<br>
+In this level you are given access keys and are told it says the SecurityAudit policy permissions. Using that information, you have to find what else you can do with this account.
+<br>
